@@ -1285,36 +1285,32 @@ footer{
         flex-direction: row;
         margin-left: auto;
         margin-right: auto;
-        padding: 8px;
+        padding: 4px;
         width: 364px;
-    }   
+    }
 
-   .hero-annonce p{
+    .hero-annonce p{
         color: var(--vert-vif);
         text-align: center;
         margin-left: 20px;
     }
 
-    .hero-annonce-text{
+    /* .hero-annonce-text{
         border: 2px solid red;
-    }
-
-    .cercle-animated{
-        border: 2px solid blue;
-    }
+    } */
 
     @keyframes dot{
     0%{
         opacity: 25%;
-        font-size: 0.72rem
+        font-size: 0.64rem
      }
     50%{
         opacity: 100%;
-        font-size: 0.84rem
+        font-size: 0.76rem
      }
     100%{
         opacity: 25%;
-        font-size: 0.72rem
+        font-size: 0.64rem
      }
     }
 
