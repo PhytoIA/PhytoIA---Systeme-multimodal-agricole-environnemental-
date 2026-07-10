@@ -1293,6 +1293,8 @@ footer{
         color: var(--vert-vif);
         text-align: center;
         margin-left: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     @keyframes dot{
