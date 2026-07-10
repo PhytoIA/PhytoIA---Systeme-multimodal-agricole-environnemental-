@@ -132,6 +132,14 @@ p{
     margin: 12px;
 }
 
+.se-connecter{
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
+    color: rgba(232, 240, 254, 0.6);
+}
+
 .nav-button-text {
     font-family: 'Inter', sans-serif;
     font-size: 0.85rem;
@@ -1274,12 +1282,28 @@ footer{
     .hero-annonce{
         margin-left: auto;
         margin-right: auto;
+        padding: 8px;
     }
+
+    .hero-annonce p{
+        color: var(--vert-vif);
+        text-align: center;
+        margin-left: 8px;
+    }
+
 
     .hero-text p {
         font-size: 0.9rem;
         line-height: 1.4rem;
         text-align: center;
+    }
+
+    .se-connecter{
+        font-family: 'Inter', sans-serif;
+        font-size: 0.72rem;
+        letter-spacing: 0.02em;
+        transition: color 0.2s;
+        color: rgba(232, 240, 254, 0.6);
     }
 
     .CTA-buttons {
